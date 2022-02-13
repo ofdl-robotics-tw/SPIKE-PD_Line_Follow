@@ -13,6 +13,20 @@ Click here to download: [Robotics-Training-Map repo](https://github.com/ofdl-rob
 ## Program
 Python, we recommend using **Robot Inventor** software to programming. (SPIKE Prime hub are able to use RI software too.)
 We using **Raw reflect light value**  to normalized sensor.
+
+### Reading Raw color sensor value
+```
+from hub import port
+
+S1d = port.F.device
+S2d = port.D.device
+S1d.mode(4) #RREFL
+S2d.mode(4) #RREFL
+
+while True:
+    print(str(S1d.get()[0]) + " , " +str(S2d.get()[0]))
+```
+### Main Program
 ```
 from hub import port
 
