@@ -7,6 +7,8 @@
  - Technic Large Motor 88013 x2 
  - SPIKE/RI Color Sensor x2
  - SPIKE Prime / RI Hub
+## Map
+Click here to download: Robotics-Training-Map repo(https://github.com/ofdl-robotics-tw/Robotics-Training-Map)
 ## Program
 Python, we recommend using **Robot Inventor** software to programming. (SPIKE Prime hub are able to use RI software too.)
 We using **Raw reflect light value**  to normalized sensor.
